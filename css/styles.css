@@ -1,0 +1,149 @@
+:root {
+    --primary-text-color: #2E2F42;
+    --title-text-color: #434455;
+    --accent-color:#4D5AE5;
+    --primary-bg-color: #E5E5E5;;
+
+}
+
+
+
+
+
+.body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+
+    font-family:'Roboto' sans-serif;
+    letter-spacing: 0.02em;
+}
+/* основний колір текст #2E2F42 */
+/* вторинний колір параграф #434455; */
+/* колір акценту #4D5AE5;*/
+/* вторичний колір фона #F4F4FD; */
+/* колір фона основний #E5E5E5; */
+
+.list { 
+    list-style: none;
+}
+
+.logo {
+    color: var(--primary-text-color);
+    font-family: 'Raleway';
+font-size: 18px;
+line-height: 1.33;
+text-transform: uppercase;
+
+color: #2E2F42;
+}
+.logo .texte {
+color: var(--accent-color);
+} 
+
+.logo:hover{
+    color:var(--accent-color);
+}
+/* site-nav */
+.site-nav .link {
+    color:var(--accent-color);
+ font-family: 'Raleway';   
+
+font-weight: 600;
+font-size: 16px;
+line-height: 1,5;
+
+
+letter-spacing: 0.02em;
+
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+ color: var(--title-text-color)
+}
+.site-nav .link.current {
+    color: #000000;
+}
+.list{
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+
+
+letter-spacing: 0.02em;
+}
+
+.contact:hover {
+    color: var(--title-text-color);
+
+}
+
+
+/* Hero */
+.hero-title {
+    color: #000000;
+    font-family: 'Roboto';
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+align-items: center;
+
+letter-spacing: 0.02em;
+}
+
+.section-title{
+    color: var(--primary-text-color);
+
+    font-family: 'Roboto';
+
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+/* Feature */
+
+.feature-list .title {
+    color: var(--title-text-color)
+
+}
+.feature-list .link {
+    color:var(--accent-color);
+}
+
+.feature-list .text {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+
+letter-spacing: 0.02em;
+}
+
+/* Button */
+.button {
+    color: #ffffff;
+    background-color: var(--accent-color);
+
+    font-family: 'Roboto';
+
+ font-weight: 600;
+font-size: 16px;
+line-height: 1,9;
+align-items: center;
+
+letter-spacing: 0.04em;
+}
+.button:hover {
+    background-color:#404BBF
+}
+
+.button.primary {
+    color: var(--accent-color);
+    background-color: #ffffff ;
+}
