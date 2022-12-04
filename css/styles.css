@@ -163,6 +163,8 @@ line-height: 1.5;
 .button {
     color: #ffffff;
     background-color: var(--accent-color);
+    font-family: inherit;
+ cursor: pointer;
 
  font-weight: 600;
 font-size: 16px;
@@ -171,6 +173,7 @@ line-height: 1.9;
 
 text-decoration: none;
 
+
 }
 .button:hover {
     background-color:#404BBF
@@ -178,12 +181,24 @@ text-decoration: none;
 }
 
 .button.primary {
-    color: var(--accent-color);
+    color: #434455;
     background-color: #F4F4FD;
 
     align-items: center;
 
 }
+
+.button.primary:focus{
+    background-color: #4D5AE5;
+}
+
+
+.button.primary:hover{
+background-color: 
+#404BBF;
+}
+
+
 .footer {
     background-color: #2E2F42;
     color: #fff;
