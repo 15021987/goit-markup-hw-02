@@ -97,7 +97,7 @@ text-decoration: none;
     background: #2E2F42;
 }
 .hero-title {
-    color: #fff;
+    color: #ffffff;
 
 font-weight: 600;
 font-size: 56px;
@@ -106,7 +106,7 @@ align-items: center
 
 }
 .hero-text {
-    color: #2E2F42;
+    color: #2E2F42; 
     
 font-weight: 600;
 font-size: 56px;
@@ -121,18 +121,26 @@ font-weight: 600;
 font-size: 36px;
 line-height: 1.11;
 
+text-decoration: none;
 
+
+}
+
+.section {
+    text-decoration: none;
 }
 
 .section-team {
     background: #F4F4FD;
-    text-decoration: none;
+
 }
 
 .section-descriptioh {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+
+
 
 }
 
