@@ -34,8 +34,11 @@ body {
     color: var(--primary-text-color);
     font-family: 'Raleway';
 font-size: 18px;
+font-weight: 800;
 line-height: 1.33;
+text-transform: uppercase;
  text-decoration: none;
+
 
 }
 .logo .texte {
@@ -81,7 +84,10 @@ text-decoration: none;
 }
 
 .contact {
-    color: #2E2F42;
+    color: #434455;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
     text-decoration: none;
 
 }
@@ -89,6 +95,10 @@ text-decoration: none;
 .contact:hover {
     color: var(--accent-color);
 
+}
+.contact:focus {
+    background: #4D5AE5;
+    color: #434455;
 }
 
 
@@ -118,12 +128,26 @@ align-items: center
     color: var(--primary-text-color);
     
 font-weight: 600;
-font-size: 36px;
-line-height: 1.11;
+font-size: 20px;
+line-height: 1.2;
+
+text-transform: capitalize;
 
 text-decoration: none;
 
+}
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 .section {
@@ -140,7 +164,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 
-
+color: #434455;
 
 }
 
@@ -148,6 +172,11 @@ line-height: 1.5;
 /* Feature */
 
 .feature-list .title {
+
+  font-weight:600;
+font-size: 20px;
+line-height: 1.2;
+
     color: var(--title-text-color)
 
 }
@@ -160,8 +189,15 @@ line-height: 1.5;
 }
 
 .feature-list .text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+
     color: var(--title-text-color);
    
+}
+.feature-fone {
+    background-color: #ffffff;
 }
    
 
@@ -183,13 +219,24 @@ text-decoration: none;
 
 
 }
-.button:hover {
-    background-color:#404BBF
+.button:hover,
+.button:focus {
+    background-color:var(--accent-color)
+}
+.button-port:focus {
 
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #FFFFFF;
+    background-color:var(--accent-color)
 }
 
+
 .button.primary {
-    color: #434455;
+    color: var(--accent-color);
     background-color: #F4F4FD;
 
     align-items: center;
@@ -197,19 +244,21 @@ text-decoration: none;
 }
 
 .button.primary:focus{
-    background-color: #4D5AE5;
+    background-color: var(--accent-color);
 }
 
 
-.button.primary:hover{
-background-color: 
-#404BBF;
+.button.primary:hover {
+    color: #fff;
+background-color: var(--accent-color)
 }
 
 
 .footer {
+
     background-color: #2E2F42;
     color: #fff;
+
 }
 .text {
     color: #fff;
