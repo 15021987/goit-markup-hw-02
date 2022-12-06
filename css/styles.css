@@ -96,8 +96,8 @@ line-height: 1.5;
 
 }
 .contact:focus {
-    color: #fff;
-    background: #4D5AE5;
+    color: #4D5AE5;
+    
     
 }
 
@@ -109,7 +109,7 @@ line-height: 1.5;
 .hero-title {
     color: #ffffff;
 
-font-weight: 600;
+font-weight: 800;
 font-size: 56px;
 line-height: 1.07;
 align-items: center
@@ -123,6 +123,13 @@ font-size: 56px;
 line-height: 1.07;
 align-items: center
 }
+.section-work {
+    font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+
+color: #2E2F42;
+}
 
 .section-title {
   font-weight: 600;  
@@ -133,6 +140,7 @@ line-height: 1.11;
 color: #2E2F42;
 
 }
+
 
 .visually-hidden {
     position: absolute;
